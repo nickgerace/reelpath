@@ -6,7 +6,7 @@
 
 `reelpath` is a CLI application that prints the absolute path for a given file or directory.
 
-```bash
+```sh
 user at host in ~/github.com/nickgerace/reelpath
 % reelpath README.md
 /home/user/github.com/nickgerace/reelpath/README.md
@@ -26,19 +26,19 @@ Since `reelpath` does not use any external dependencies, it supports all platfor
 
 If you're a **[macOS Homebrew](https://brew.sh)** or **[Linuxbrew](https://docs.brew.sh/Homebrew-on-Linux)** user, then you can use the [tap](https://github.com/nickgerace/homebrew-reelpath).
 
-```bash
+```sh
 brew install nickgerace/reelpath/reelpath
 ```
 
 On all platforms that [Rust](https://www.rust-lang.org/) supports, you can install the [crate](https://crates.io/crates/reelpath) with **[cargo](https://crates.io)**.
 
-```bash
+```sh
 cargo install reelpath
 ```
 
 Keeping the crate up to date is easy with [cargo-update](https://crates.io/crates/cargo-update).
 
-```bash
+```sh
 cargo install cargo-update
 cargo install-update -a
 ```
