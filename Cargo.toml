@@ -1,6 +1,6 @@
 [package]
 name = "reelpath"
-version = "1.0.1"
+version = "1.0.2"
 authors = ["Nick Gerace <nickagerace@gmail.com>"]
 edition = "2018"
 license = "Apache-2.0"
