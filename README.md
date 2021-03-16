@@ -19,40 +19,29 @@ Probably.
 Did I want a cross-platform method to get the absolute path for a given file or directory?
 Yes.
 
+Since `reelpath` does not use any external dependencies, it supports all platforms that [Rust](https://www.rust-lang.org/) supports.
+**Please file an [issue](https://github.com/nickgerace/reelpath/issues)** if you encounter an error on your platform of choice.
+
 ## Installation
 
-There are multiple ways to install `reelpath`, but this section contains the recommended methods.
-
-> Since `reelpath` does not use any external dependencies, it supports all platforms that [Rust](https://www.rust-lang.org/) supports.
-> Please file an [issue](https://github.com/nickgerace/reelpath/issues) if you encounter an error on your platform of choice.
-
-### Homebrew
-
-You can use [Homebrew](https://brew.sh) to install the [tap](https://github.com/nickgerace/homebrew-reelpath) for `reelpath`.
+If you're a **[macOS Homebrew](https://brew.sh)** or **[Linuxbrew](https://docs.brew.sh/Homebrew-on-Linux)** user, then you can use the [tap](https://github.com/nickgerace/homebrew-reelpath).
 
 ```bash
 brew install nickgerace/reelpath/reelpath
 ```
 
-Alternatively, you can execute:
-
-```bash
-brew tap nickgerace/reelpath
-brew install reelpath
-```
-
-Running `brew help` or `man brew` can help you use `brew` locally.
-You can check out [Homebrew's documentation](https://docs.brew.sh) as well.
-
-### Cargo Install
-
-You can install from [crates.io](https://crates.io/crates/reelpath) by executing the following:
+On all platforms that [Rust](https://www.rust-lang.org/) supports, you can install the [crate](https://crates.io/crates/reelpath) with **[cargo](https://crates.io)**.
 
 ```bash
 cargo install reelpath
 ```
 
-Keeping the package up to date is easy with [cargo-update](https://crates.io/crates/cargo-update).
+Keeping the crate up to date is easy with [cargo-update](https://crates.io/crates/cargo-update).
+
+```bash
+cargo install cargo-update
+cargo install-update -a
+```
 
 ## Additional Nodes
 
