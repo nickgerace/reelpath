@@ -1,7 +1,7 @@
 [package]
 name = "reelpath"
 version = "1.0.0"
-authors = ["nick <nickagerace@gmail.com>"]
+authors = ["Nick Gerace <nickagerace@gmail.com>"]
 edition = "2018"
 license = "Apache-2.0"
 description = "CLI tool that prints the absolute path for a given file or directory."
