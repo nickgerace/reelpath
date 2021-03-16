@@ -61,6 +61,11 @@ Keeping the package up to date is easy with [cargo-update](https://crates.io/cra
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html), but does not leverage popular changelog formats, like [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), because of its tiny size and purpose.
 Using GitHub to compare two tags, commits, etc. should suffice for this project.
 
+```
+https://github.com/nickgerace/reelpath/compare/<one-tag>...<another-tag>
+https://github.com/nickgerace/reelpath/compare/<latest-tag>...HEAD
+```
+
 ### Where is the continuous integration?
 
 Local developer testing suffices for this project due to its tiny size and purpose.
