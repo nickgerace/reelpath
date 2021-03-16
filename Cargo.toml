@@ -1,0 +1,12 @@
+[package]
+name = "reelpath"
+version = "1.0.0"
+authors = ["nick <nickagerace@gmail.com>"]
+edition = "2018"
+license = "Apache-2.0"
+description = "CLI tool that prints the absolute path for a given file or directory."
+homepage = "https://nickgerace.dev"
+repository = "https://github.com/nickgerace/reelpath/"
+readme = "README.md"
+keywords = ["cli"]
+categories = ["command-line-utilities", "command-line-interface"]
