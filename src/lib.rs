@@ -6,7 +6,6 @@ use std::io;
 
 /// This function prints general usage information to STDOUT for the `reelpath` CLI.
 pub fn help() {
-    let version = option_env!("CARGO_PKG_VERSION").unwrap_or("v?");
     println!(
         "reelpath {}
 https://github.com/nickgerace/reelpath
@@ -15,7 +14,7 @@ Find the absolute path of a given file or directory.
 
 USAGE:
     reelpath [path]",
-        version
+        option_env!("CARGO_PKG_VERSION").unwrap_or("v?")
     );
 }
 
