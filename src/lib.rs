@@ -33,7 +33,7 @@ USAGE:
             _ => continue,
         }
     }
-    if s.len() < 1 || print_help == true {
+    if s.is_empty() || print_help {
         help();
     } else {
         for i in s {
