@@ -22,6 +22,20 @@ Yes.
 Since `reelpath` does not use any external dependencies, it supports all platforms that [Rust](https://www.rust-lang.org/) supports.
 **Please file an [issue](https://github.com/nickgerace/reelpath/issues)** if you encounter an error on your platform of choice.
 
+## Usage
+
+You can supply multiple arguments to the CLI, use pipes with `xargs`, and use wildcards in a single argument.
+
+```sh
+reelpath file
+reelpath directory
+reelpath ../relative/path/to/file
+reelpath ../relative/path/to/directory
+reelpath $(ls)
+reelpath file.* file.extension directory/*
+ls | xargs reelpath
+```
+
 ## Installation
 
 If you're a **[macOS Homebrew](https://brew.sh)** or **[Linuxbrew](https://docs.brew.sh/Homebrew-on-Linux)** user, then you can use the [tap](https://github.com/nickgerace/homebrew-reelpath).
