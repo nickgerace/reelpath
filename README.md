@@ -53,7 +53,7 @@ brew install nickgerace/reelpath/reelpath
 You can use [cargo](https://crates.io) to install the [crate](https://crates.io/crates/reelpath) on almost any platform.
 
 ```sh
-cargo install gfold
+cargo install reelpath
 ```
 
 Keeping the crate up to date is easy with [cargo-update](https://crates.io/crates/cargo-update).
