@@ -38,16 +38,22 @@ ls | xargs reelpath
 
 ## Installation
 
-If you're a **[macOS Homebrew](https://brew.sh)** or **[Linuxbrew](https://docs.brew.sh/Homebrew-on-Linux)** user, then you can use the [tap](https://github.com/nickgerace/homebrew-reelpath).
+There multiple methods for installing `reelpath`.
+
+### Homebrew and Linux Brew
+
+You can use [macOS Homebrew](https://brew.sh) or [Linuxbrew](https://docs.brew.sh/Homebrew-on-Linux) to install the [tap](https://github.com/nickgerace/homebrew-reelpath).
 
 ```sh
 brew install nickgerace/reelpath/reelpath
 ```
 
-On all platforms that [Rust](https://www.rust-lang.org/) supports, you can install the [crate](https://crates.io/crates/reelpath) with **[cargo](https://crates.io)**.
+### Cargo
+
+You can use [cargo](https://crates.io) to install the [crate](https://crates.io/crates/reelpath) on almost any platform.
 
 ```sh
-cargo install reelpath
+cargo install gfold
 ```
 
 Keeping the crate up to date is easy with [cargo-update](https://crates.io/crates/cargo-update).
@@ -57,7 +63,7 @@ cargo install cargo-update
 cargo install-update -a
 ```
 
-## Additional Nodes
+## Additional Notes
 
 ### Where is `CHANGELOG.md`?
 
