@@ -8,7 +8,6 @@ This document contains all information related to release.
 - [ ] Run the commands and verify that everything looks/works as expected:
 
 ```sh
-cargo update
 cargo +nightly fmt --all -- --check
 cargo clippy -- -D warnings
 cargo test -- --nocapture
