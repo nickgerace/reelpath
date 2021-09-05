@@ -1,8 +1,8 @@
 # reelpath
 
-[![GitHub](https://img.shields.io/github/license/nickgerace/reelpath?style=flat-square)](./LICENSE)
 [![Latest SemVer GitHub Tag](https://img.shields.io/github/v/tag/nickgerace/reelpath?label=version&style=flat-square)](https://github.com/nickgerace/reelpath/releases/latest)
 [![Crates.io](https://img.shields.io/crates/v/reelpath?style=flat-square)](https://crates.io/crates/reelpath)
+[![License](https://img.shields.io/github/license/nickgerace/reelpath?style=flat-square)](./LICENSE)
 
 `reelpath` is a CLI application that prints the absolute path for a given file or directory.
 
@@ -38,18 +38,6 @@ ls | xargs reelpath
 
 ## Installation
 
-There multiple methods for installing `reelpath`.
-
-### Homebrew and Linux Brew
-
-You can use [macOS Homebrew](https://brew.sh) or [Linuxbrew](https://docs.brew.sh/Homebrew-on-Linux) to install the [tap](https://github.com/nickgerace/homebrew-reelpath).
-
-```sh
-brew install nickgerace/reelpath/reelpath
-```
-
-### Cargo
-
 You can use [cargo](https://crates.io) to install the [crate](https://crates.io/crates/reelpath) on almost any platform.
 
 ```sh
@@ -80,16 +68,6 @@ https://github.com/nickgerace/reelpath/compare/<latest-tag>...HEAD
 Local developer testing suffices for this project due to its tiny size and purpose.
 Continuous integration would be wasteful, but this is subject to change.
 
-### Where are the binaries?
-
-There are no binaries uploaded to GitHub since this application is best distributed via a package manager, such as [cargo](https://crates.io/). 
-Use one of the README's installation methods to build and install `reelpath`.
-
 ## Code of Conduct
 
 This repository follows and enforces the Rust programming language's [Code of Conduct](https://www.rust-lang.org/policies/code-of-conduct).
-
-## Additional Information
-
-- Author: [Nick Gerace](https://nickgerace.dev)
-- License: [Apache 2.0](./LICENSE)
