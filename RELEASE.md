@@ -2,45 +2,30 @@
 
 This document contains all information related to release.
 
-## Preparation
+## Checklist
 
-- [ ] Change the `version` field in `Cargo.toml` to `<new-tag>`
-- [ ] Run the commands and verify that everything looks/works as expected:
+This checklist details the `reelpath` release process.
 
-```sh
-cargo +nightly fmt --all -- --check
-cargo clippy -- -D warnings
-cargo test -- --nocapture
-cargo build --release
-```
+### Preparation
 
-- [ ] Create a commit with the following message: `Update to <new-tag>`. Do not push (or merge) the commit.
-- [ ] Test the publishing workflow:
+- [ ] Checkout (or create a branch of) `main` at its latest commit.
+- [ ] Change the `version` field in `Cargo.toml` to `<tag>`.
+- [ ] Run `make` and verify that everything looks/works as expected.
+- [ ] Create a commit with the following message: `Update to <tag>`. Do not push (or merge) the commit.
+- [ ] Test and verify the publishing workflow: `cargo publish --dry-run`.
+- [ ] Finally, push (or merge) the preparation commit into `main`.
 
-```sh
-cargo publish --dry-run
-```
+### Release Time
 
-- [ ] Finally, push (or merge) the preparation commit.
+- [ ] Once the prepation commit has been pushed (or merged) into `main`, checkout and/or update `main`.
+- [ ] Tag with `git tag <tag>` and push the tag: `git push --tags origin main`.
+- [ ] Now, publish the crate: `cargo publish`.
 
-## Tagging and Publishing
-
-- [ ] Once the prepation commit has been pushed (or merged) into `main`, execute the following commands:
-
-```sh
-git tag <new-tag>
-git push --tags origin main
-```
-
-- [ ] Now, publish the crate.
-
-```sh
-cargo publish
-```
+### Post Release
 
 - [ ] Check the [crate](https://crates.io/crates/reelpath) on `crates.io`.
-- [ ] Check the [docs](https://docs.rs/reelpath) on `docs.rs`.
+- [ ] Download the crate via `cargo install reelpath` or `cargo install --version <tag> reelpath`
 
-## Updating the Homebrew Tap
+### Update the Homebrew Tap
 
-- [ ] Update the formula for the [tap](https://github.com/nickgerace/homebrew-reelpath).
+- [ ] **(Skip for release candidates)** Update the formula for the [tap](https://github.com/nickgerace/homebrew-nickgerace).
