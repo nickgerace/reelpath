@@ -2,7 +2,7 @@
 name = "reelpath"
 version = "1.2.1"
 authors = ["Nick Gerace <nickagerace@gmail.com>"]
-edition = "2018"
+edition = "2021"
 license = "Apache-2.0"
 description = "CLI tool that prints the absolute path for a given file or directory."
 homepage = "https://nickgerace.dev"

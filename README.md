@@ -1,8 +1,8 @@
 # reelpath
 
-[![Latest SemVer GitHub Tag](https://img.shields.io/github/v/tag/nickgerace/reelpath?label=version&style=flat-square)](https://github.com/nickgerace/reelpath/releases/latest)
-[![Crates.io](https://img.shields.io/crates/v/reelpath?style=flat-square)](https://crates.io/crates/reelpath)
-[![License](https://img.shields.io/github/license/nickgerace/reelpath?style=flat-square)](./LICENSE)
+[![tag](https://img.shields.io/github/v/tag/nickgerace/reelpath?sort=semver&logo=github&label=version&style=flat-square&color=blue)](https://github.com/nickgerace/reelpath/releases/latest)
+[![crates.io](https://img.shields.io/crates/v/reelpath?style=flat-square&logo=rust&color=orange)](https://crates.io/crates/reelpath)
+[![license](https://img.shields.io/github/license/nickgerace/reelpath?style=flat-square&color=green)](./LICENSE)
 
 `reelpath` is a CLI application that prints the absolute path for a given file or directory.
 
@@ -37,6 +37,20 @@ ls | xargs reelpath
 ```
 
 ## Installation
+
+There are two primary methods for installing `reelpath`.
+
+### Homebrew (macOS only)
+
+You can use [Homebrew](https://brew.sh) to install the [tap](https://github.com/nickgerace/homebrew-nickgerace/blob/main/Formula/reelpath.rb).
+
+```sh
+brew install nickgerace/nickgerace/reelpath
+```
+
+_Note: the tap may not work with [Linuxbrew](https://docs.brew.sh/Homebrew-on-Linux)._
+
+### Cargo (recommended)
 
 You can use [cargo](https://crates.io) to install the [crate](https://crates.io/crates/reelpath) on almost any platform.
 
