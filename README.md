@@ -1,3 +1,9 @@
+# DEPRECATION NOTICE
+
+This repository has been archived due to its lack of use.
+If there's interest in unarchiving the repository, please let me know.
+Thank you for understanding.
+
 # reelpath
 
 [![tag](https://img.shields.io/github/v/tag/nickgerace/reelpath?sort=semver&logo=github&label=version&style=flat-square&color=blue)](https://github.com/nickgerace/reelpath/releases/latest)
